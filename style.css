@@ -1,0 +1,24 @@
+body {
+    min-height: 100vh;
+    background: #f8f9fa;
+  }
+  .sidebar {
+    min-width: 220px;
+    max-width: 220px;
+    background: #343a40;
+    color: #fff;
+    min-height: 100vh;
+  }
+  .sidebar .nav-link {
+    color: #fff;
+  }
+  .sidebar .nav-link.active {
+    background: #495057;
+  }
+  @media (max-width: 768px) {
+    .sidebar {
+      min-width: 100%;
+      max-width: 100%;
+      min-height: auto;
+    }
+  }
